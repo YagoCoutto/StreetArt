@@ -1,0 +1,44 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px 30px 20px;
+    color: var(--Primary-Gray);
+    background-color: var(--Primary-Black);
+}
+
+footer>h2 {
+    letter-spacing: 3px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.btt-footer {
+    color: white;
+    border: 1px solid white;
+    margin-bottom: 8px;
+}
+
+.btt-footer:hover {
+    background-color: white;
+    color: var(--Primary-Black);
+}
+
+footer > div {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha se não couberem */
+    justify-content: space-between; /* Distribui os itens uniformemente entre as linhas */
+   
+}
+
+footer > div > a {
+    width: 48%; /* Defina a largura dos itens para ocupar 48% da largura da linha */
+    text-decoration: none;
+    margin-bottom: 5px; /* Adicione espaço entre os itens */
+    align-items: center;
+    color: var(--Primary-Gray);
+}
+.footer-p {
+    margin: 20px 0 0;
+    font-size: .8rem;
+}
